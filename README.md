@@ -19,9 +19,9 @@
 
 ## 🤝 Contribuir
 
-1. Faça um fork do repositório.
-2. Realize as alterações necessárias.
-3. Submeta um Pull Request com uma descrição clara.
+1. Façam um fork do repositório.
+2. Realizem as alterações necessárias.
+3. Submetam um Pull Request com uma descrição clara.
 
 ## 📜 Licença
 
@@ -30,3 +30,7 @@ Publicado sob a **Licença MIT** — é livre de utilizar e adaptar, desde que s
 ---
 
 **VibeCoders Portugal**
+
+- Telegram: https://t.me/+Leb49gjKESk4MDU0
+- Linkedin: https://www.linkedin.com/groups/11808197/
+- Web: https://www.vibecoders.pt
