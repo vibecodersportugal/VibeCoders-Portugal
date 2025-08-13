@@ -1,0 +1,35 @@
+name: Docs checks
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show repo tree (diagnostic)
+        run: |
+          pwd
+          ls -la
+
+      - name: Markdownlint (with repo config)
+        uses: avto-dev/markdown-lint@v1
+        with:
+          config: '.markdownlint.json'   # usa o ficheiro da raiz
+          args: '**/*.md'
+          fix: true
+
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress '**/*.md' --exclude 'mailto:' --exclude 'medium.com/@'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
