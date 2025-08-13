@@ -1,0 +1,16 @@
+# 6. Monitorização, Alertas e Resposta a Incidentes
+
+- [ ] Monitorização contínua (Wazuh/OSSEC/Zabbix/Prometheus); correlação de eventos.  
+- [ ] SIEM: centralizar logs de apps/SO/firewalls/APIs/DB; NTP; retenção ≥ 12 meses.  
+- [ ] Alertas proativos: múltiplas falhas de login; alteração de ficheiros críticos; tráfego anómalo.  
+- [ ] *Threat Intelligence*: bloquear IPs/domínios/hashes maliciosos; listas atualizadas.  
+- [ ] Plano de resposta: Identificação → Contenção → Erradicação → Recuperação → Lições aprendidas; *playbooks* (ransomware, DDoS, intrusão, fuga de dados).  
+- [ ] Exercícios regulares: cenários técnicos e engenharia social; incorporar melhorias.  
+- [ ] Comunicação segura: evitar sistemas comprometidos; canais cifrados (ex.: VPN dedicada).  
+- [ ] Contenção rápida: revogar acessos; isolar sistemas; bloquear tráfego malicioso.  
+- [ ] Documentar/reportar: cronologia, impacto, ações; CNPD quando aplicável; notificar utilizadores afetados.  
+- [ ] *Post-mortem*: identificar falhas de deteção/resposta; corrigir e reforçar controlos.
+
+---
+
+**VibeCoders Portugal**
